@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0af4072f40557c934a533b9bc01248c",
+    "content-hash": "c2a0f1adc7e2c01cf1d490944183ea51",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -347,16 +347,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "2.12.0",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "5418e811a14724068e95e0ba43353b903ada530f"
+                "reference": "ca59d84b8e63143ce1aed90cdb333ba329d71563"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/5418e811a14724068e95e0ba43353b903ada530f",
-                "reference": "5418e811a14724068e95e0ba43353b903ada530f",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/ca59d84b8e63143ce1aed90cdb333ba329d71563",
+                "reference": "ca59d84b8e63143ce1aed90cdb333ba329d71563",
                 "shasum": ""
             },
             "require": {
@@ -447,7 +447,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/DoctrineBundle/issues",
-                "source": "https://github.com/doctrine/DoctrineBundle/tree/2.12.0"
+                "source": "https://github.com/doctrine/DoctrineBundle/tree/2.13.0"
             },
             "funding": [
                 {
@@ -463,7 +463,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-19T07:20:37+00:00"
+            "time": "2024-09-01T09:46:40+00:00"
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -1230,16 +1230,16 @@
         },
         {
             "name": "nelmio/api-doc-bundle",
-            "version": "v4.29.0",
+            "version": "v4.29.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "c9523906023e61351f03dbab8d077173f5ec4883"
+                "reference": "61a3f8bb95111fade6eace55c071c43da0cc75d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/c9523906023e61351f03dbab8d077173f5ec4883",
-                "reference": "c9523906023e61351f03dbab8d077173f5ec4883",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/61a3f8bb95111fade6eace55c071c43da0cc75d9",
+                "reference": "61a3f8bb95111fade6eace55c071c43da0cc75d9",
                 "shasum": ""
             },
             "require": {
@@ -1340,7 +1340,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nelmio/NelmioApiDocBundle/issues",
-                "source": "https://github.com/nelmio/NelmioApiDocBundle/tree/v4.29.0"
+                "source": "https://github.com/nelmio/NelmioApiDocBundle/tree/v4.29.3"
             },
             "funding": [
                 {
@@ -1348,7 +1348,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-22T08:40:00+00:00"
+            "time": "2024-08-17T13:03:07+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
