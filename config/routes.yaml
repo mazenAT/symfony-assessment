@@ -3,4 +3,28 @@ controllers:
         path: ../src/Controller/V1
         namespace: App\Controller\V1
     type: attribute
-    prefix: /api/v1
+    prefix: /api/doc
+country_api_get:
+    path: /{uuid}
+    controller: 'App\Controller\v1\CountryController::getCountry'
+   methods: ['GET']
+
+   country_api_get_list:
+    path: /list
+    controller: 'App\Controller\v1\CountryController::getCountries'
+   methods: ['GET']
+
+   country_api_add:
+    path: /
+    controller: 'App\Controller\v1\CountryController::addCountry'
+   methods: ['POST']
+
+   country_api_get:
+    path: /{uuid}
+    controller: 'App\Controller\v1\CountryController::updateCountry'
+   methods: ['PATCH']
+
+   country_api_get:
+    path: /{uuid}
+    controller: 'App\Controller\v1\CountryController::deleteCountry'
+   methods: ['DELETE']
